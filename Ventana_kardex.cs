@@ -20,6 +20,7 @@ namespace Pagina_Inicial
         private void Ventana_kardex_Load(object sender, EventArgs e)
         {
             //Prueba
+            //prueba 2
         }
     }
 }
