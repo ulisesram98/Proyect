@@ -15,6 +15,7 @@ namespace Pagina_Inicial
         public Form2()
         {
             InitializeComponent();
+            //cambios prueba
         }
     }
 }
