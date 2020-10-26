@@ -147,5 +147,10 @@ namespace Pagina_Inicial
         {
             crearPDF();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

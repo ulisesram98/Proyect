@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Pagina_Inicial
 {
-    public partial class Ventana_kardex : Form
+    public partial class Form2 : Form
     {
-        public Ventana_kardex()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-        private void Ventana_kardex_Load(object sender, EventArgs e)
-        {
-            //Prueba
-            //prueba 2
         }
     }
 }
