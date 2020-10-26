@@ -69,8 +69,11 @@ namespace Pagina_Inicial
 
             string sql = "SELECT Nombre_M FROM materia LEft JOIN materia_carrera On materia.Cod_M = materia_carrera.Cod_m4 WHERE tetra = 1";
 
+            //Conexion a la base de datos
             SqlConnection con = new SqlConnection(@"Data source = DESKTOP-JJ17LHE;Initial Catalog=Universidad;Integrated Security=true");
             con.Open();
+            //Termina la conexion a la base de datos
+
 
             SqlCommand comando = new SqlCommand(sql, con);
             SqlDataReader reader = comando.ExecuteReader();
@@ -136,12 +139,18 @@ namespace Pagina_Inicial
                
             }
             doc.Close();
+            con.Close();
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             crearPDF();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
