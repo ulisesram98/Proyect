@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace Pagina_Inicial
 {
-    public partial class Form2 : Form
+    public partial class FrmPrueba : Form
     {
-        public Form2()
+        public FrmPrueba()
         {
             InitializeComponent();
-            //cambios prueba
         }
     }
 }
